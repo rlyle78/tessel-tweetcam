@@ -10,11 +10,7 @@ var bound = require('crypto').pseudoRandomBytes(16).toString('hex');
 var ctype = 'multipart/form-data; boundary=' + bound;
  
 // Tweeting as @TesselTweet
-var oauth_consumer_key = "idwkm4uBMkADBiLfuitsGvrCY";
-var oauth_consumer_secret = "Xoty0Kum87FfDveOaC397yLK01gzfOEVJFLrSmzZnewmXmJb2D";
-var oauth_access_token = "3385593500-mR7AHucADN6Dnlj6rcKPsvUJLZASp1ty33iaARi";
-var oauth_access_secret = "rb5YISfrhL3KzpLWqaX9B1L9COhzBX4Pi13d9CCz963wJ";
- 
+
 // Get time
 var curtime = parseInt(process.env.DEPLOY_TIMESTAMP || Date.now());
  
